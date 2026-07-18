@@ -1,0 +1,6 @@
+{
+  "name": "Tera",
+  "description": "Polished SaaS web application for AI voice agents that automate phone calls for Indian businesses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
