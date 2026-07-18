@@ -371,7 +371,7 @@ export default function Dashboard({ agents, onRefreshAgents, onCreateAgentClick,
                   <div
                     key={agent.id}
                     onClick={() => onSelectAgent(agent)}
-                    className="bg-[#121216] border border-zinc-800 rounded-2xl p-6 hover:border-zinc-700 transition-all cursor-pointer flex flex-col justify-between group relative hover:-translate-y-0.5"
+                    className="bg-[#121216] border border-zinc-800 rounded-2xl p-6 hover:border-accent/50 hover:shadow-lg hover:shadow-accent/10 hover:-translate-y-1 transition-all duration-300 cursor-pointer flex flex-col justify-between group relative"
                   >
                     <div>
                       {/* Badge Row */}
