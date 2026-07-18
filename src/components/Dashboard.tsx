@@ -202,8 +202,8 @@ export default function Dashboard({ agents, onRefreshAgents, onCreateAgentClick,
           
           {/* Logo brand */}
           <div className="flex items-center gap-3 py-1">
-            <div className="h-9 w-9 rounded-full bg-accent flex items-center justify-center glow-accent">
-              <PhoneCall className="h-4.5 w-4.5 text-black stroke-[2.5]" />
+            <div className="h-9 w-9 rounded-xl overflow-hidden flex items-center justify-center glow-accent">
+              <img src="/logo.png" alt="Tera Logo" className="h-full w-full object-cover" />
             </div>
             <span className="text-xl font-bold font-display text-white tracking-tight flex items-center gap-1">
               Tera <span className="text-[10px] bg-zinc-900 border border-zinc-800 text-zinc-500 font-sans px-2 py-0.5 rounded-full font-medium">Console</span>

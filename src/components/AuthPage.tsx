@@ -49,8 +49,8 @@ export default function AuthPage({ onLoginSuccess, onNavigate }: AuthPageProps) 
         
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <div className="h-10 w-10 rounded-full bg-accent flex items-center justify-center glow-accent">
-            <PhoneCall className="h-5 w-5 text-black stroke-[2.5]" />
+          <div className="h-10 w-10 rounded-xl overflow-hidden flex items-center justify-center glow-accent">
+            <img src="/logo.png" alt="Tera Logo" className="h-full w-full object-cover" />
           </div>
           <span className="text-2xl font-bold font-display text-white tracking-tight">Tera</span>
         </div>
@@ -94,8 +94,8 @@ export default function AuthPage({ onLoginSuccess, onNavigate }: AuthPageProps) 
         <div className="w-full max-w-md">
           {/* Logo for mobile view */}
           <div className="flex items-center gap-2.5 mb-8 lg:hidden justify-center">
-            <div className="h-9 w-9 rounded-full bg-accent flex items-center justify-center">
-              <PhoneCall className="h-4.5 w-4.5 text-black stroke-[2.5]" />
+            <div className="h-9 w-9 rounded-lg overflow-hidden flex items-center justify-center">
+              <img src="/logo.png" alt="Tera Logo" className="h-full w-full object-cover" />
             </div>
             <span className="text-xl font-bold font-display text-white">Tera</span>
           </div>

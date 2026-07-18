@@ -53,8 +53,8 @@ export default function LandingPage({ onNavigate, isLoggedIn, onLogout }: Landin
       <header className="sticky top-0 z-50 backdrop-blur-md bg-[#0A0A0A]/80 border-b border-zinc-800/60 px-6 py-4">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => onNavigate('landing')}>
-            <div className="h-10 w-10 rounded-full bg-accent flex items-center justify-center glow-accent">
-              <PhoneCall className="h-5 w-5 text-black stroke-[2.5]" />
+            <div className="h-10 w-10 rounded-xl overflow-hidden flex items-center justify-center glow-accent">
+              <img src="/logo.png" alt="Tera Logo" className="h-full w-full object-cover" />
             </div>
             <span className="text-2xl font-bold font-display tracking-tight text-white flex items-center gap-1">
               Tera <span className="text-accent text-xs px-2 py-0.5 rounded-full bg-accent/10 border border-accent/20 font-sans font-medium">SaaS Pitch</span>
@@ -433,8 +433,8 @@ export default function LandingPage({ onNavigate, isLoggedIn, onLogout }: Landin
       <footer className="border-t border-zinc-900 bg-zinc-950 px-6 py-12 text-sm text-zinc-500">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex items-center gap-3">
-            <div className="h-8 w-8 rounded-full bg-accent flex items-center justify-center">
-              <PhoneCall className="h-4 w-4 text-black stroke-[2.5]" />
+            <div className="h-8 w-8 rounded-lg overflow-hidden flex items-center justify-center">
+              <img src="/logo.png" alt="Tera Logo" className="h-full w-full object-cover" />
             </div>
             <span className="text-lg font-bold font-display text-white">Tera</span>
             <span className="text-xs text-zinc-500">© 2026. All rights reserved.</span>
